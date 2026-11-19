@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sieci wod-kan i gazowe, przyłącza, kotłownie - Elektro-cal, Zajączkowo k. Tczewa</title>
+<meta name="description" content="Elektro-cal sp. z o.o. - projekt i budowa sieci oraz przyłączy wodociągowych, kanalizacyjnych i gazowych, kotłownie, pompy ciepła, przewierty. Salon Firmowy Viessmann. Pomorskie, od 1991 roku.">
+<link rel="preload" href="fonts/p-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/p-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-m-720.webp" media="(max-width:767px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-d-1440.webp" media="(min-width:768px)" fetchpriority="high">
+<style>
+@font-face{font-family:Poppins;font-weight:400;font-display:swap;src:url(fonts/p-latin-400.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2026,U+20AC}
+@font-face{font-family:Poppins;font-weight:400;font-display:swap;src:url(fonts/p-latin-ext-400.woff2) format("woff2");unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Poppins;font-weight:600;font-display:swap;src:url(fonts/p-latin-600.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2026,U+20AC}
+@font-face{font-family:Poppins;font-weight:600;font-display:swap;src:url(fonts/p-latin-ext-600.woff2) format("woff2");unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Poppins;font-weight:800;font-display:swap;src:url(fonts/p-latin-800.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2026,U+20AC}
+@font-face{font-family:Poppins;font-weight:800;font-display:swap;src:url(fonts/p-latin-ext-800.woff2) format("woff2");unicode-range:U+0100-02AF,U+1E00-1EFF}
+:root{--red:#E0231C;--red-d:#B81A14;--ink:#1D1814;--txt:#2B2A29;--mut:#5E6166;--grey:#EEF0F2;--line:#D5D9DE;--w:1320px;--pad:clamp(16px,4vw,40px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--txt);font:400 16.5px/1.65 Poppins,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-weight:800;color:var(--ink);line-height:1.12;margin:0;letter-spacing:-.015em}
+h2{font-size:clamp(28px,3.6vw,46px)}
+h3{font-size:19px;font-weight:600;letter-spacing:0;line-height:1.3}
+p{margin:0 0 1em}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 var(--pad)}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:8px 12px;z-index:99}.skip:focus{left:8px}
+
+/* trasa z logo: kreska, zalamanie, grot */
+.trasa{display:block;width:clamp(150px,18vw,210px);height:auto;color:var(--ink);margin:18px 0 0;overflow:visible}
+.trasa path{fill:none;stroke:currentColor;stroke-width:3.2;stroke-linejoin:miter}
+.trasa polygon{fill:currentColor}
+.trasa.red{color:var(--red)}
+.grot{display:inline-block;width:14px;height:8px;flex:none}
+.grot polygon{fill:currentColor}
+
+/* przyciski */
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--red);color:#fff;text-decoration:none;font-weight:600;font-size:16px;padding:15px 24px 15px 26px;border:0;border-radius:3px;cursor:pointer;transition:background .2s,transform .2s;font-family:inherit}
+.btn:hover{background:var(--red-d)}
+.btn:hover .grot{transform:translateX(3px)}
+.btn .grot{transition:transform .2s}
+.btn:focus-visible,.navlink:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 5px var(--ink)}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-color:var(--line);box-shadow:0 6px 18px rgba(29,24,20,.06)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px;max-width:1440px}
+.logo{display:block;width:150px;flex:none}
+.logo svg{display:block;width:100%;height:auto}
+.nav{display:flex;align-items:center;gap:clamp(16px,2.2vw,34px)}
+.navlink{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink);padding:6px 0;border-bottom:2px solid transparent}
+.navlink:hover{border-color:var(--red)}
+.tel-top{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;color:var(--ink);font-size:17px;white-space:nowrap}
+.tel-top svg{width:18px;height:18px;color:var(--red)}
+.burger{display:none;width:46px;height:46px;border:0;background:none;padding:0;cursor:pointer;position:relative}
+.burger span{position:absolute;left:11px;right:11px;height:2.5px;background:var(--ink);transition:transform .25s,opacity .2s}
+.burger span:nth-child(1){top:15px}.burger span:nth-child(2){top:22px}.burger span:nth-child(3){top:29px}
+.menu-open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.menu-open .burger span:nth-child(2){opacity:0}
+.menu-open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* hero */
+.hero{padding:0;position:relative;min-height:calc(100svh - 72px);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#3a3a36}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:62% 40%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,15,12,.82) 0%,rgba(18,15,12,.55) 38%,rgba(18,15,12,0) 68%),linear-gradient(0deg,rgba(18,15,12,.55),rgba(18,15,12,0) 45%)}
+.hero .wrap{position:relative;z-index:2;width:100%;max-width:1440px;padding-top:48px;padding-bottom:clamp(36px,7vh,88px)}
+.hero h1{color:#fff;font-size:clamp(34px,min(4.3vw,7vh),64px);max-width:14em;line-height:1.06}.nw{white-space:nowrap}
+.hero .trasa{width:clamp(180px,22vw,280px);margin:clamp(14px,2.2vh,22px) 0}
+.hero .lead{font-size:clamp(16.5px,1.35vw,19px);max-width:34em;color:#F1EEEA;margin:0 0 30px}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px}
+.hero .tel{color:#fff;text-decoration:none;font-weight:800;font-size:20px;display:flex;align-items:center;gap:10px}
+.hero .tel svg{width:20px;height:20px}
+.hero .tel small{display:block;font-weight:400;font-size:13px;color:#DCD8D2;line-height:1.2}
+
+/* sekcje */
+section{padding:clamp(64px,9vw,120px) 0}
+.head{max-width:760px;margin-bottom:clamp(36px,5vw,56px)}
+.head p{margin:22px 0 0;color:var(--mut);font-size:17.5px}
+
+/* uslugi */
+.usl{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,80px);align-items:start}
+.usl ul{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.usl li{display:grid;grid-template-columns:28px 1fr;gap:6px 14px;padding:22px 0;border-bottom:1px solid var(--line)}
+.usl li .grot{width:22px;height:12px;color:var(--red);margin-top:7px}
+.usl li p{grid-column:2;margin:0;color:var(--mut);font-size:15.5px}
+.usl figure{margin:0;position:sticky;top:96px}
+.usl figure img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px}
+.usl figcaption{font-size:14px;color:var(--mut);margin-top:12px;display:flex;align-items:center;gap:10px}
+.usl figcaption .grot{color:var(--red)}
+.projekt{margin-top:34px;padding:26px 28px;background:var(--grey);border-left:4px solid var(--red)}
+.projekt h3{margin-bottom:6px}
+.projekt p{margin:0;color:var(--mut);font-size:15.5px}
+
+/* realizacje */
+.real{background:var(--grey)}
+.pas-wrap{max-width:1840px;margin:0 auto;padding:0 clamp(16px,3vw,56px)}
+.pas-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;max-width:var(--w);margin:0 auto clamp(30px,4vw,48px);padding:0 var(--pad)}
+.pas-top .head{margin:0}
+.strz{display:flex;gap:10px;flex:none}
+.strz button{width:52px;height:52px;border:2px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer;display:grid;place-items:center;border-radius:2px;transition:background .2s,color .2s,opacity .2s}
+.strz button:hover:not(:disabled){background:var(--ink);color:#fff}
+.strz button:disabled{opacity:.3;cursor:default}
+.strz svg{width:20px;height:12px}
+.strz .prev svg{transform:scaleX(-1)}
+.pas{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*16px)/4);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain}
+.pas::-webkit-scrollbar{display:none}
+.pas.drag{cursor:grabbing;scroll-snap-type:none}
+.pas.drag *{pointer-events:none}
+.kafel{scroll-snap-align:start;margin:0;position:relative}
+.kafel button{display:block;width:100%;padding:0;border:0;background:#cfd3d7;cursor:zoom-in;aspect-ratio:4/3;overflow:hidden;border-radius:2px}
+.kafel img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.kafel button:hover img{transform:scale(1.03)}
+.kafel figcaption{font-size:14.5px;font-weight:600;color:var(--ink);margin-top:12px;display:flex;gap:10px;align-items:center}
+.kafel figcaption .grot{color:var(--red)}
+.licz{max-width:var(--w);margin:22px auto 0;padding:0 var(--pad);font-size:14px;color:var(--mut)}
+
+/* viessmann - ciemna */
+.vie{background:var(--ink);color:#D9D5D0}
+.vie h2,.vie h3{color:#fff}
+.vie .trasa{color:var(--red)}
+.vie-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,5vw,80px);align-items:center}
+.vie-grid img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:2px}
+.vie p{font-size:17px}
+.vie ul{list-style:none;padding:0;margin:26px 0 30px;display:flex;flex-wrap:wrap;gap:10px}
+.vie li{border:1.5px solid rgba(255,255,255,.28);padding:8px 14px;font-size:15px;color:#fff;font-weight:600}
+.osoba{border-top:1px solid rgba(255,255,255,.18);padding-top:22px;font-size:15.5px}
+.osoba b{color:#fff;font-weight:600}
+.osoba a{color:#fff;text-decoration:none;font-weight:600;border-bottom:1.5px solid var(--red)}
+
+/* o firmie */
+.firma-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px);align-items:start}
+.cytat{margin:0;font-size:clamp(23px,2.5vw,32px);font-weight:600;line-height:1.35;color:var(--ink);letter-spacing:-.01em}
+.cytat::before{content:"";display:block;width:56px;height:5px;background:var(--red);margin-bottom:26px}
+.cytat cite{display:block;font-style:normal;font-size:15px;font-weight:400;color:var(--mut);margin-top:20px;letter-spacing:0}
+.firma-txt p{font-size:17px}
+.firma-txt img{width:100%;aspect-ratio:3/2;object-fit:cover;margin-top:30px;border-radius:2px}
+.dzialy{margin-top:clamp(56px,7vw,88px)}
+.dzialy h3{font-size:22px;font-weight:800;margin-bottom:6px}
+.dz{display:grid;grid-template-columns:repeat(3,1fr);gap:0 40px;margin-top:22px;border-top:2px solid var(--ink)}
+.dz div{padding:20px 0;border-bottom:1px solid var(--line)}
+.dz span{display:block;font-size:13.5px;color:var(--mut)}
+.dz b{display:block;font-weight:600;color:var(--ink);margin:2px 0}
+.dz a{text-decoration:none;font-size:15.5px;display:block}
+.dz a:hover{color:var(--red)}
+
+/* kontakt */
+.kontakt{background:var(--grey)}
+.k-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,5vw,72px);align-items:start}
+.dane{font-size:17px}
+.dane a{text-decoration:none}
+.dane .big{display:block;font-size:clamp(26px,2.6vw,34px);font-weight:800;color:var(--ink);margin:8px 0 2px}
+.dane .mail{font-weight:600;color:var(--ink);border-bottom:2px solid var(--red)}
+.dane .adr{margin-top:26px}
+.dane small{display:block;color:var(--mut);font-size:14px;margin-top:18px;line-height:1.6}
+form{background:#fff;padding:clamp(24px,3vw,40px);border-top:4px solid var(--red)}
+form h3{font-size:22px;font-weight:800;margin-bottom:22px}
+.pole{margin-bottom:16px}
+.pole label{display:block;font-size:14px;font-weight:600;color:var(--ink);margin-bottom:6px}
+.pole input,.pole select,.pole textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid #C5CAD0;border-radius:2px;background:#fff;color:var(--txt)}
+.pole input:focus,.pole select:focus,.pole textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px rgba(224,35,28,.18)}
+.pole textarea{min-height:120px;resize:vertical}
+.dwa{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.zgoda{font-size:13px;color:var(--mut);margin:4px 0 20px}
+.info{display:none;margin-top:16px;font-size:14.5px;color:var(--ink);background:var(--grey);padding:12px 14px}
+.mapa{margin-top:clamp(40px,5vw,64px);position:relative;height:clamp(280px,28vw,440px);background:#d9dde1 url(img/g2_19-800.webp) center/cover;display:grid;place-items:center}
+.mapa::before{content:"";position:absolute;inset:0;background:rgba(29,24,20,.55)}
+.mapa button{position:relative}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* stopka */
+.stopka{background:var(--ink);color:#B9B4AE;padding:56px 0 30px;font-size:15px}
+.st-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:28px 40px}
+.stopka .logo{width:160px;margin-bottom:14px}
+.stopka h4{color:#fff;font-size:15px;margin:0 0 10px;font-weight:600}
+.stopka a{text-decoration:none;color:#E9E5E0}
+.stopka a:hover{color:#fff}
+.stopka ul{list-style:none;margin:0;padding:0;line-height:2}
+.st-dol{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.14);margin-top:40px;padding-top:22px;font-size:14px}
+.stopka .trasa{width:120px;color:var(--red);margin:6px 0 0}
+
+/* lightbox */
+.lb{position:fixed;inset:0;background:rgba(14,12,10,.94);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 12px 20px}
+.lb.on{display:flex}
+.lb img{max-width:min(1600px,100%);max-height:calc(100svh - 130px);width:auto;height:auto;object-fit:contain}
+.lb p{color:#E9E5E0;margin:14px 0 0;font-size:15px;text-align:center}
+.lb button{position:absolute;background:none;border:0;color:#fff;cursor:pointer;width:56px;height:56px;display:grid;place-items:center}
+.lb .x{top:6px;right:8px;font-size:34px;line-height:1}
+.lb .l{left:6px;top:50%;transform:translateY(-50%)}
+.lb .r{right:6px;top:50%;transform:translateY(-50%)}
+.lb .l svg,.lb .r svg{width:26px;height:16px}
+.lb .l svg{transform:scaleX(-1)}
+
+/* wylinka */
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* responsywnosc */
+@media (max-width:1699px){.pas{grid-auto-columns:calc((100% - 2*16px)/3)}}
+@media (max-width:1279px){.pas{grid-auto-columns:calc((100% - 16px)/2.25)}}
+@media (max-width:1080px){
+  .nav{position:fixed;top:72px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px var(--pad) 24px;border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(29,24,20,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s}
+  .menu-open .nav{opacity:1;transform:none;visibility:visible}
+  .navlink{font-size:18px;padding:15px 0;border-bottom:1px solid var(--line)}
+  .nav .tel-top{margin-top:18px;font-size:20px}
+  .burger{display:block}
+  .usl,.vie-grid,.firma-grid,.k-grid{grid-template-columns:1fr}
+  .usl figure{position:static}
+  .usl figure img{aspect-ratio:4/3}
+  .dz{grid-template-columns:1fr 1fr}
+  .st-grid{grid-template-columns:1fr 1fr}
+  .st-grid > div:first-child{grid-column:1/-1}
+}
+@media (max-width:767px){
+  body{font-size:16px}
+  .top .wrap{height:64px}
+  html{scroll-padding-top:68px}
+  .nav{top:64px}
+  .logo{width:128px}
+  .hero{min-height:calc(100svh - 64px)}
+  .hero picture img{object-position:58% 30%}
+  .hero::after{background:linear-gradient(0deg,rgba(18,15,12,.9) 0%,rgba(18,15,12,.78) 45%,rgba(18,15,12,.5) 75%,rgba(18,15,12,.3) 100%)}
+  .hero h1{text-shadow:0 2px 14px rgba(0,0,0,.35)}
+  .hero .wrap{padding-top:44px;padding-bottom:28px}
+  .hero h1{font-size:clamp(30px,8.4vw,38px)}
+  .hero .trasa{margin:16px 0 16px;width:170px}
+  .hero .lead{font-size:16px;margin-bottom:26px}
+  .hero .btn{width:100%;justify-content:center}
+  .hero .cta{gap:18px}
+  .pas{grid-auto-columns:84%;gap:12px}
+  .pas-top{align-items:flex-start;flex-direction:column}
+  .strz{display:none}
+  .dz{grid-template-columns:1fr}
+  .dwa{grid-template-columns:1fr}
+  .mapa{height:300px}
+  .projekt{padding:22px 20px}
+}
+@media (min-width:768px) and (max-width:1023px){.pas{grid-auto-columns:62%}}
+</style>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="grot" viewBox="0 0 14 8"><polygon points="0,0 14,4 0,8"/></symbol>
+    <symbol id="tel" viewBox="0 0 20 20"><path fill="currentColor" d="M5.6 1.5 8.4 5c.4.5.3 1.2-.1 1.6L6.6 8c.9 2.2 3.1 4.4 5.4 5.4l1.4-1.6c.4-.4 1.1-.5 1.6-.1l3.5 2.8c.5.4.6 1.2.2 1.7l-1.4 1.8c-.6.7-1.6 1-2.5.7C8.6 16.9 3.1 11.4 1.3 5.2 1 4.3 1.3 3.3 2 2.7L3.8 1.3c.5-.4 1.3-.3 1.8.2Z"/></symbol>
+    <symbol id="strz" viewBox="0 0 20 12"><path d="M0 6h15" stroke="currentColor" stroke-width="2.4" fill="none"/><polygon fill="currentColor" points="12,0 20,6 12,12"/></symbol>
+  </defs>
+</svg>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Elektro-cal - strona główna">
+      <svg viewBox="0 0 1240 420" role="img" aria-label="ELEKTRO CAL"><text x="-4.6" y="226" font-family="Poppins" font-weight="800" font-size="212.7" fill="#E0231C">ELEKTRO</text><text x="401.5" y="398.3" font-family="Poppins" font-weight="800" font-size="212.7" fill="#E0231C">CAL</text><path fill="#1D1814" d="M886 399.3h241.5v16l99.5-27.4-99.5-27.3v16H925.8L1143.3 0H0v22.7h1103.8L886 399.3Z"/></svg>
+    </a>
+    <nav class="nav" id="nav" aria-label="Menu główne">
+      <a class="navlink" href="#uslugi">Usługi</a>
+      <a class="navlink" href="#realizacje">Realizacje</a>
+      <a class="navlink" href="#viessmann">Salon Viessmann</a>
+      <a class="navlink" href="#firma">O firmie</a>
+      <a class="navlink" href="#kontakt">Kontakt</a>
+      <a class="tel-top" href="tel:+48585300105"><svg><use href="#tel"/></svg>58 530 01 05</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="tresc">
+<section class="hero" aria-label="Elektro-cal">
+  <picture>
+    <source media="(max-width:767px)" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-1080.webp 1080w" sizes="100vw">
+    <img src="img/hero-d-1440.webp" srcset="img/hero-d-960.webp 960w, img/hero-d-1440.webp 1440w" sizes="100vw" width="1440" height="900" alt="Koparka przy wykopie pod gazociąg w otwartym terenie" fetchpriority="high">
+  </picture>
+  <div class="wrap">
+    <h1>Sieci i przyłącza <span class="nw">wod-kan</span> i&nbsp;gazowe na Pomorzu. Od&nbsp;projektu do&nbsp;wykonania.</h1>
+    <svg class="trasa red" viewBox="0 0 240 36" aria-hidden="true"><path d="M0 2H208L186 32H224"/><polygon points="222,25 240,32 222,39"/></svg>
+    <p class="lead">Elektro-cal to rodzinna firma z Zajączkowa koło Tczewa, działająca od 1991 roku. Projektujemy i budujemy sieci, przyłącza, kotłownie i instalacje grzewcze dla instytucji i firm.</p>
+    <div class="cta">
+      <a class="btn" href="#kontakt">Wyślij zapytanie <svg class="grot"><use href="#grot"/></svg></a>
+      <a class="tel" href="tel:+48585300105"><svg><use href="#tel"/></svg><span>58 530 01 05<small>biuro firmy</small></span></a>
+    </div>
+  </div>
+</section>
+
+<section id="uslugi">
+  <div class="wrap">
+    <div class="head">
+      <h2>Prowadzimy sieć od rysunku do przyłącza</h2>
+      <svg class="trasa" viewBox="0 0 240 36" aria-hidden="true"><path d="M0 2H208L186 32H224"/><polygon points="222,25 240,32 222,39"/></svg>
+      <p>Projektanci i wykonawcy pracują u nas w jednej firmie, więc trasa ustalona na papierze trafia prosto na budowę, bez przerzucania odpowiedzialności między wykonawcami.</p>
+    </div>
+    <div class="usl">
+      <div>
+        <ul>
+          <li><svg class="grot"><use href="#grot"/></svg><h3>Projekt i wykonawstwo sieci i przyłączy</h3><p>Wodociągowych, kanalizacyjnych i gazowych, od uzgodnień po gotową sieć.</p></li>
+          <li><svg class="grot"><use href="#grot"/></svg><h3>Sieci i instalacje sanitarne</h3><p>Grzewcze, gazowe, wodociągowe i kanalizacyjne.</p></li>
+          <li><svg class="grot"><use href="#grot"/></svg><h3>Kotłownie gazowe i olejowe</h3><p>Montaż kotłowni dla obiektów i firm.</p></li>
+          <li><svg class="grot"><use href="#grot"/></svg><h3>Pompy ciepła i kolektory słoneczne</h3><p>Dobór i montaż, także urządzeń Viessmann z naszego salonu.</p></li>
+          <li><svg class="grot"><use href="#grot"/></svg><h3>Technologie bezwykopowe</h3><p>Przewierty i przeciski pod drogami i zabudową, bez rozkopywania nawierzchni.</p></li>
+        </ul>
+        <div class="projekt">
+          <h3>Własny dział projektów</h3>
+          <p>Projektanci i dział realizacji kontraktów z kierownikiem budowy pracują razem. Jedna firma odpowiada za projekt i wykonanie.</p>
+        </div>
+      </div>
+      <figure>
+        <img src="img/g2_14-800.webp" width="800" height="1067" loading="lazy" decoding="async" alt="Wykop z ułożonym gazociągiem prowadzony przez pole">
+        <figcaption><svg class="grot"><use href="#grot"/></svg>Trasa gazociągu w otwartym terenie</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="real" id="realizacje">
+  <div class="pas-top">
+    <div class="head">
+      <h2>Z naszych budów</h2>
+      <svg class="trasa" viewBox="0 0 240 36" aria-hidden="true"><path d="M0 2H208L186 32H224"/><polygon points="222,25 240,32 222,39"/></svg>
+      <p>Zdjęcia z prac prowadzonych przez nasze ekipy. Kliknij, aby powiększyć.</p>
+    </div>
+    <div class="strz"><button class="prev" aria-label="Poprzednie zdjęcia"><svg><use href="#strz"/></svg></button><button class="next" aria-label="Następne zdjęcia"><svg><use href="#strz"/></svg></button></div>
+  </div>
+  <div class="pas-wrap">
+    <div class="pas" id="pas" tabindex="0" aria-label="Galeria realizacji, przesuń w bok">
+      <figure class="kafel"><button data-i="0"><img src="img/g2_6-800.webp" data-big="img/g2_6-1600.webp" width="800" height="1067" loading="lazy" decoding="async" alt="Gazociąg w wykopie wzdłuż nowego osiedla"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Sieć gazowa przy osiedlu</figcaption></figure>
+      <figure class="kafel"><button data-i="1"><img src="img/g1_12-800.webp" data-big="img/g1_12-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Niwelator przy studni w wykopie pod kanalizację"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Kanalizacja, pomiary na trasie</figcaption></figure>
+      <figure class="kafel"><button data-i="2"><img src="img/g1_37-800.webp" data-big="img/g1_37-1600.webp" width="800" height="1067" loading="lazy" decoding="async" alt="Żółta rura przyłącza gazowego w wykopie"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Przyłącze gazowe</figcaption></figure>
+      <figure class="kafel"><button data-i="3"><img src="img/g1_26-800.webp" data-big="img/g1_26-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Niebieska rura wodociągowa w wykopie"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Sieć wodociągowa</figcaption></figure>
+      <figure class="kafel"><button data-i="4"><img src="img/g1_5-800.webp" data-big="img/g1_5-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Maszyna i rury w wykopie na placu budowy"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Prace na dużej budowie</figcaption></figure>
+      <figure class="kafel"><button data-i="5"><img src="img/g1_32-800.webp" data-big="img/g1_32-1600.webp" width="800" height="1067" loading="lazy" decoding="async" alt="Szafka gazowa przy ogrodzeniu posesji"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Szafka gazowa przy posesji</figcaption></figure>
+      <figure class="kafel"><button data-i="6"><img src="img/g1_29-800.webp" data-big="img/g1_29-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Studnia kanalizacyjna z kształtką w wykopie"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Studnia kanalizacyjna</figcaption></figure>
+      <figure class="kafel"><button data-i="7"><img src="img/g2_19-800.webp" data-big="img/g2_19-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Szafa gazowa przy hali"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Instalacja gazowa przy hali</figcaption></figure>
+      <figure class="kafel"><button data-i="8"><img src="img/g2_4-800.webp" data-big="img/g2_4-1600.webp" width="800" height="1067" loading="lazy" decoding="async" alt="Wykop pod sieć gazową wzdłuż drogi i pola"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Gazociąg wzdłuż drogi</figcaption></figure>
+      <figure class="kafel"><button data-i="9"><img src="img/g1_11-800.webp" data-big="img/g1_11-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Koparka i samochód przy wykopie w miejscowości"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Wykop pod kanalizację</figcaption></figure>
+      <figure class="kafel"><button data-i="10"><img src="img/g2_20-800.webp" data-big="img/g2_20-1600.webp" width="800" height="600" loading="lazy" decoding="async" alt="Szafa gazowa na utwardzonym placu przy budynku"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Gotowa instalacja przy obiekcie</figcaption></figure>
+      <figure class="kafel"><button data-i="11"><img src="img/g2_16-800.webp" data-big="img/g2_16-1600.webp" width="800" height="1067" loading="lazy" decoding="async" alt="Gazociąg z taśmą ostrzegawczą w długim wykopie"></button><figcaption><svg class="grot"><use href="#grot"/></svg>Sieć gazowa w polu</figcaption></figure>
+    </div>
+  </div>
+  <p class="licz" id="licz">12 zdjęć z budów</p>
+</section>
+
+<section class="vie" id="viessmann">
+  <div class="wrap vie-grid">
+    <div>
+      <h2>Salon Firmowy Viessmann w Zajączkowie</h2>
+      <svg class="trasa" viewBox="0 0 240 36" aria-hidden="true"><path d="M0 2H208L186 32H224"/><polygon points="222,25 240,32 222,39"/></svg>
+      <p style="margin-top:24px">W naszej siedzibie prowadzimy sprzedaż i serwis urządzeń Viessmann. Pomożemy dobrać urządzenie do budynku, a montaż i serwis wykonają nasi instalatorzy.</p>
+      <ul>
+        <li>Systemy grzewcze</li>
+        <li>Systemy przemysłowe</li>
+        <li>Systemy chłodnicze</li>
+      </ul>
+      <div class="osoba">
+        <b>Sprzedaż i serwis Viessmann:</b> Agnieszka Matusz<br>
+        <a href="tel:+48505192274">505 192 274</a> &nbsp;·&nbsp; <a href="mailto:serwis@elektrocal.pl">serwis@elektrocal.pl</a>
+      </div>
+    </div>
+    <img src="img/s1-1100.webp" srcset="img/s1-700.webp 700w, img/s1-1100.webp 1100w" sizes="(max-width:1080px) 100vw, 46vw" width="1100" height="640" loading="lazy" decoding="async" alt="Siedziba Elektro-cal i Salon Firmowy Viessmann w Zajączkowie">
+  </div>
+</section>
+
+<section id="firma">
+  <div class="wrap">
+    <div class="firma-grid">
+      <blockquote class="cytat">Firmę tworzą ludzie i to nasi pracownicy są naszą wizytówką, a ich praca rekomendacją.<cite>Elektro-cal sp. z o.o.</cite></blockquote>
+      <div class="firma-txt">
+        <h2>Firma rodzinna od 1991 roku</h2>
+        <svg class="trasa" viewBox="0 0 240 36" aria-hidden="true"><path d="M0 2H208L186 32H224"/><polygon points="222,25 240,32 222,39"/></svg>
+        <p style="margin-top:24px">Elektro-cal założył w 1991 roku Janusz Matusz, do dziś prezes zarządu. Od ponad 30 lat wykonujemy roboty inżynieryjne branży sanitarnej, grzewczej i gazowej dla instytucji i firm.</p>
+        <p>Z efektów naszej pracy korzystają mieszkańcy wielu miast i gmin województwa pomorskiego. Stawiamy na doświadczenie, terminowość i jakość wykonania.</p>
+        <img src="img/g1_12-800.webp" width="800" height="600" loading="lazy" decoding="async" alt="Prace pomiarowe na trasie kanalizacji">
+      </div>
+    </div>
+    <div class="dzialy">
+      <h3>Z kim rozmawiać</h3>
+      <div class="dz">
+        <div><span>Obsługa klienta</span><b>Biuro</b><a href="tel:+48585300105">58 530 01 05</a><a href="mailto:elektrocal@elektrocal.pl">elektrocal@elektrocal.pl</a></div>
+        <div><span>Realizacja kontraktów</span><b>Kamil Panas, kierownik budowy</b><a href="tel:+48505192271">505 192 271</a><a href="mailto:kpanas@elektrocal.pl">kpanas@elektrocal.pl</a></div>
+        <div><span>Dział projektów</span><b>Andrzej Bakierski</b><a href="tel:+48538050344">538 050 344</a><a href="mailto:andrzej@elektrocal.pl">andrzej@elektrocal.pl</a></div>
+        <div><span>Zarząd</span><b>Janusz Matusz, prezes</b><a href="mailto:jmatusz@elektrocal.pl">jmatusz@elektrocal.pl</a></div>
+        <div><span>Zarząd</span><b>Krzysztof Matusz, wiceprezes</b><a href="mailto:kmatusz@elektrocal.pl">kmatusz@elektrocal.pl</a></div>
+        <div><span>Sprzedaż i serwis Viessmann</span><b>Agnieszka Matusz</b><a href="tel:+48505192274">505 192 274</a><a href="mailto:serwis@elektrocal.pl">serwis@elektrocal.pl</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt">
+  <div class="wrap">
+    <div class="k-grid">
+      <div class="dane">
+        <h2>Opisz inwestycję, odezwiemy się z wyceną</h2>
+        <svg class="trasa" viewBox="0 0 240 36" aria-hidden="true"><path d="M0 2H208L186 32H224"/><polygon points="222,25 240,32 222,39"/></svg>
+        <p style="margin-top:26px;color:var(--mut)">Telefon do biura</p>
+        <a class="big" href="tel:+48585300105">58 530 01 05</a>
+        <a class="mail" href="mailto:elektrocal@elektrocal.pl">elektrocal@elektrocal.pl</a>
+        <p class="adr"><b style="color:var(--ink)">Elektro-cal sp. z o.o.</b><br>Zajączkowo 28 A<br>83-111 Miłobądz</p>
+        <small>NIP 593 010 61 90 · REGON 190538730</small>
+      </div>
+      <form id="form" novalidate>
+        <h3>Zapytanie ofertowe</h3>
+        <div class="dwa">
+          <div class="pole"><label for="f1">Imię i nazwisko lub firma</label><input id="f1" name="nazwa" autocomplete="name"></div>
+          <div class="pole"><label for="f2">Telefon lub e-mail</label><input id="f2" name="kontakt" autocomplete="tel"></div>
+        </div>
+        <div class="pole"><label for="f3">Czego dotyczy zapytanie</label>
+          <select id="f3" name="rodzaj"><option>Sieć lub przyłącze wod-kan</option><option>Sieć lub przyłącze gazowe</option><option>Instalacja sanitarna lub grzewcza</option><option>Kotłownia</option><option>Pompa ciepła lub kolektory</option><option>Przewiert lub przecisk</option><option>Viessmann: sprzedaż lub serwis</option><option>Inne</option></select></div>
+        <div class="pole"><label for="f4">Opis prac i miejscowość</label><textarea id="f4" name="opis"></textarea></div>
+        <p class="zgoda">Administratorem danych jest Elektro-cal sp. z o.o. Dane wykorzystamy tylko do odpowiedzi na zapytanie.</p>
+        <button class="btn" type="submit">Wyślij zapytanie <svg class="grot"><use href="#grot"/></svg></button>
+        <p class="info" id="info">To podgląd strony, formularz nie wysyła jeszcze wiadomości.</p>
+      </form>
+    </div>
+    <div class="mapa" id="mapa"><button class="btn" type="button" id="mapbtn">Pokaż dojazd na mapie Google <svg class="grot"><use href="#grot"/></svg></button></div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="st-grid">
+      <div>
+        <span class="logo"><svg viewBox="0 0 1240 420" role="img" aria-label="ELEKTRO CAL"><text x="-4.6" y="226" font-family="Poppins" font-weight="800" font-size="212.7" fill="#fff">ELEKTRO</text><text x="401.5" y="398.3" font-family="Poppins" font-weight="800" font-size="212.7" fill="#fff">CAL</text><path fill="#E0231C" d="M886 399.3h241.5v16l99.5-27.4-99.5-27.3v16H925.8L1143.3 0H0v22.7h1103.8L886 399.3Z"/></svg></span>
+        <p style="margin:0">Sieci, przyłącza i instalacje sanitarne, grzewcze i gazowe. Pomorskie, od 1991 roku.</p>
+      </div>
+      <div><h4>Kontakt</h4><ul><li><a href="tel:+48585300105">58 530 01 05</a></li><li><a href="mailto:elektrocal@elektrocal.pl">elektrocal@elektrocal.pl</a></li><li>Zajączkowo 28 A, 83-111 Miłobądz</li></ul></div>
+      <div><h4>Na stronie</h4><ul><li><a href="#uslugi">Usługi</a></li><li><a href="#realizacje">Realizacje</a></li><li><a href="#viessmann">Salon Viessmann</a></li><li><a href="#kontakt">Kontakt</a></li></ul></div>
+      <div><h4>Dane firmy</h4><ul><li>Elektro-cal sp. z o.o.</li><li>NIP 593 010 61 90</li><li>REGON 190538730</li></ul></div>
+    </div>
+    <div class="st-dol">
+      <span>© 2026 Elektro-cal sp. z o.o. · <a href="#kontakt">Polityka prywatności</a></span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=elektrocal.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <button class="x" aria-label="Zamknij">×</button>
+  <button class="l" aria-label="Poprzednie"><svg><use href="#strz"/></svg></button>
+  <img alt="" id="lbimg">
+  <p id="lbcap"></p>
+  <button class="r" aria-label="Następne"><svg><use href="#strz"/></svg></button>
+</div>
+
+<script>
+(function(){
+  var d=document, b=d.body, top=d.getElementById('top'), bur=d.getElementById('burger');
+  addEventListener('scroll',function(){top.classList.toggle('sc',scrollY>8)},{passive:true});
+  bur.addEventListener('click',function(){var o=b.classList.toggle('menu-open');bur.setAttribute('aria-expanded',o);bur.setAttribute('aria-label',o?'Zamknij menu':'Otwórz menu')});
+  d.querySelectorAll('.nav a').forEach(function(a){a.addEventListener('click',function(){b.classList.remove('menu-open');bur.setAttribute('aria-expanded','false')})});
+
+  // pas zdjec: strzalki + przeciaganie mysza
+  var pas=d.getElementById('pas'), prev=d.querySelector('.strz .prev'), next=d.querySelector('.strz .next');
+  function step(){var k=pas.querySelector('.kafel');return k?k.getBoundingClientRect().width+16:300}
+  function upd(){prev.disabled=pas.scrollLeft<4;next.disabled=pas.scrollLeft+pas.clientWidth>=pas.scrollWidth-4}
+  prev.onclick=function(){pas.scrollBy({left:-step(),behavior:'smooth'})};
+  next.onclick=function(){pas.scrollBy({left:step(),behavior:'smooth'})};
+  pas.addEventListener('scroll',upd,{passive:true});upd();addEventListener('resize',upd);
+  var down=false,sx=0,sl=0,moved=0;
+  pas.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;down=true;moved=0;sx=e.clientX;sl=pas.scrollLeft});
+  addEventListener('pointermove',function(e){if(!down)return;var dx=e.clientX-sx;if(Math.abs(dx)>5){moved=1;pas.classList.add('drag')}if(moved)pas.scrollLeft=sl-dx});
+  addEventListener('pointerup',function(){if(!down)return;down=false;if(moved){setTimeout(function(){pas.classList.remove('drag')},30);var s=step();pas.scrollTo({left:Math.round(pas.scrollLeft/s)*s,behavior:'smooth'})}});
+  pas.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation()}},true);
+
+  // lightbox
+  var lb=d.getElementById('lb'), li=d.getElementById('lbimg'), lc=d.getElementById('lbcap'), btns=[].slice.call(pas.querySelectorAll('.kafel button')), cur=0, t;
+  function show(i){cur=(i+btns.length)%btns.length;var im=btns[cur].querySelector('img');li.src=im.currentSrc||im.src;li.alt=im.alt;lc.textContent=btns[cur].parentNode.querySelector('figcaption').textContent+'  ('+(cur+1)+'/'+btns.length+')';clearTimeout(t);t=setTimeout(function(){var big=new Image();big.onload=function(){if(btns[cur].querySelector('img')===im)li.src=big.src};big.src=im.dataset.big},180)}
+  btns.forEach(function(x,i){x.addEventListener('click',function(){show(i);lb.classList.add('on');b.style.overflow='hidden';lb.querySelector('.x').focus()})});
+  function close(){lb.classList.remove('on');b.style.overflow='';btns[cur].focus()}
+  lb.querySelector('.x').onclick=close;lb.querySelector('.l').onclick=function(){show(cur-1)};lb.querySelector('.r').onclick=function(){show(cur+1)};
+  lb.addEventListener('click',function(e){if(e.target===lb)close()});
+  addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+  var tx=0;lb.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+  lb.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50)show(cur+(dx<0?1:-1))});
+
+  // formularz pokazowy
+  d.getElementById('form').addEventListener('submit',function(e){e.preventDefault();d.getElementById('info').style.display='block'});
+  // mapa po kliknieciu
+  d.getElementById('mapbtn').addEventListener('click',function(){var m=d.getElementById('mapa');m.innerHTML='<iframe title="Mapa dojazdu: Elektro-cal, Zajączkowo 28 A" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9352.35016835322!2d18.738287!3d54.125376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd64142a2ad14f%3A0x6d0db4b94b31aba0!2sElektro-Cal.%20Salon%20Firmowy%20Viessmann!5e0!3m2!1spl!2spl!4v1666956838215!5m2!1spl!2spl"></iframe>';m.style.background='#d9dde1'});
+})();
+</script>
+</body>
+</html>
